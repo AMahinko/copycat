@@ -36,5 +36,45 @@ header > ul {
   margin-left: 20px;
   position: relative;
   right: 20px;
+}
 
+main {
+  margin: auto;
+  max-width: 1200px;
+  padding-top: 55px;
+}
+
+.Main {
+  background-color: #26547C;
+  display: inline-block;
+  /*overflow: hidden;*/
+  position: relative;
+}
+
+.imgcontainer {
+  /*position: relative;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  max-width: 60%;
+  display: inline-block;
+  float: left;
+}
+
+.mainimg {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.main_title {
+  max-width: 40%;
+  float: left;
+  display: inline-block;
+}
+
+.main_title > h1 {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  margin-left: 5px;
+  display: inline-block;
 }
