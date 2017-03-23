@@ -1,0 +1,40 @@
+* {
+  list-style-type: none;
+}
+
+
+html {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+
+header {
+  background-color: #06D6A0;
+  margin: 0;
+  width: 100%;
+  position: absolute;
+  height: 55px;
+}
+
+header > h1 {
+  float: left;
+  color: white;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+header > ul {
+  float: right;
+}
+
+.nav {
+  display: inline;
+  margin-left: 20px;
+  position: relative;
+  right: 20px;
+
+}
